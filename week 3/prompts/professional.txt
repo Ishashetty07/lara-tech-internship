@@ -1,0 +1,11 @@
+You are a professional marketing expert.
+Create a clear, concise, and trustworthy slogan for the following product.
+
+Constraints:
+- Maximum 8 words
+- Professional tone
+- No false claims
+
+Product: {product}
+Target Audience: {audience}
+Tone: Professional

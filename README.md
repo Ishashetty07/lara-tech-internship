@@ -16,9 +16,7 @@ All work is organized **week-wise** for easy evaluation and review.
   - Git & GitHub workflow
 
 📁 Location:
-```
 Week-1-AI-Bootcamp/Hello-AI-Agent
-```
 
 ---
 
@@ -42,9 +40,7 @@ A Python-based movie assistant application.
 - Modular project structure
 
 📁 Location:
-```
 Week-2-AI-Bootcamp/Movie-Agent
-```
 
 ---
 
@@ -66,9 +62,34 @@ A Python-based library management system.
 - CLI-based application design
 
 📁 Location:
-```
 Week-2-AI-Bootcamp/Mini-Library-Manager
-```
+
+---
+
+## 📌 Week 3 – Azure OpenAI & Azure AI Search
+
+### 🧠 Marketing Slogan Generator
+A Python-based application that generates creative marketing slogans using **Azure OpenAI**, with support for multiple tones through external prompt templates.
+
+**Features:**
+- Generate marketing slogans using Azure OpenAI
+- Supports multiple tones:
+  - Professional
+  - Friendly
+  - Bold
+- Prompt templates stored as `.txt` files
+- Easy to extend with new tones
+- Environment-variable based configuration
+
+**Key Concepts Used:**
+- Azure OpenAI integration
+- Prompt engineering
+- Environment variables (`.env`)
+- Modular project structure
+- CLI-based interaction
+
+📁 Location:
+Week-3-Azure-AI/Marketing-Slogan-Generator
 
 ---
 
@@ -95,5 +116,6 @@ Week-2-AI-Bootcamp/Mini-Library-Manager
 
 ✔️ Week 1 Completed  
 ✔️ Week 2 Completed  
+✔️ Week 3 Completed  
 ✔️ Ready for Evaluation  
-✔️ Clean & Structured Submission
+✔️ Clean & Structured Submission  
