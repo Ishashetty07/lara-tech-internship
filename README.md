@@ -15,7 +15,7 @@ All work is organized **week-wise** for easy evaluation and review.
   - Script execution
   - Git & GitHub workflow
 
-📁 Location:
+📁 Location:  
 Week-1-AI-Bootcamp/Hello-AI-Agent
 
 ---
@@ -39,7 +39,7 @@ A Python-based movie assistant application.
 - REST API integration
 - Modular project structure
 
-📁 Location:
+📁 Location:  
 Week-2-AI-Bootcamp/Movie-Agent
 
 ---
@@ -61,12 +61,39 @@ A Python-based library management system.
 - Path handling using pathlib
 - CLI-based application design
 
-📁 Location:
+📁 Location:  
 Week-2-AI-Bootcamp/Mini-Library-Manager
 
 ---
 
 ## 📌 Week 3 – Azure OpenAI & Azure AI Search
+
+### 🎧 Customer Support Response Generator
+A Python-based application that generates professional customer support responses using **Azure OpenAI**.  
+This project focuses on reusable prompt templates and structured prompt engineering for different support domains.
+
+**Features:**
+- Generates professional customer support replies using Azure OpenAI
+- Supports multiple support domains:
+  - General Support
+  - Technical Support
+  - Billing Support
+- Prompt templates stored as external `.txt` files
+- Easy to extend with new support domains
+- Environment-variable based configuration
+- Interactive console-based conversation
+
+**Key Concepts Used:**
+- Azure OpenAI integration
+- Prompt engineering using role-based templates
+- Environment variable configuration
+- Modular folder structure
+- CLI-based interaction
+
+📁 Location:  
+Week-3-Azure-AI/Customer-Support-Response-Generator
+
+---
 
 ### 🧠 Marketing Slogan Generator
 A Python-based application that generates creative marketing slogans using **Azure OpenAI**, with support for multiple tones through external prompt templates.
@@ -88,8 +115,75 @@ A Python-based application that generates creative marketing slogans using **Azu
 - Modular project structure
 - CLI-based interaction
 
-📁 Location:
+📁 Location:  
 Week-3-Azure-AI/Marketing-Slogan-Generator
+
+---
+
+### 🏢 Employee Policy Assistant (RAG using Azure AI Search + Azure OpenAI)
+
+A command-line based Retrieval-Augmented Generation (RAG) application that allows employees to ask questions about internal policy documents and receive answers strictly based on the indexed documents.
+
+**Features:**
+- Ask questions about internal employee policy documents
+- Retrieves relevant document content using Azure AI Search
+- Generates grounded answers using Azure OpenAI
+- Works with PDF documents uploaded to Azure Blob Storage
+- Returns a clear message when information is not found
+
+**Key Concepts Used:**
+- Azure Blob Storage (document storage)
+- Azure AI Search (indexing and retrieval)
+- Azure OpenAI (answer generation)
+- Retrieval-Augmented Generation (RAG)
+- REST API integration
+- Environment variables (`.env`)
+- CLI-based application
+
+📁 Location:  
+Week-3-Azure-AI/Employee-Policy-Assistant
+
+---
+
+## 📌 Week 4 – Azure OpenAI (Decision Systems)
+
+### 🧾 Customer Feedback Triage System
+
+A Python-based text-to-decision system that classifies and prioritizes customer feedback using **Azure OpenAI**, and compares the results with a rule-based baseline to evaluate decision quality and consistency.
+
+**Features:**
+- Classifies customer feedback into:
+  - Complaint
+  - Feature Request
+  - Praise
+  - Question
+- Assigns urgency levels:
+  - Low
+  - Medium
+  - High
+- Recommends actions:
+  - Respond
+  - Escalate
+  - Forward
+  - Ignore
+- Provides reasoning for every decision
+- Side-by-side comparison:
+  - Azure OpenAI vs Rule-based logic
+- Evaluation metrics:
+  - Category match
+  - Urgency match
+
+**Key Concepts Used:**
+- Azure OpenAI integration
+- Structured prompt design for decision making
+- Rule-based baseline system
+- Output comparison and evaluation
+- Environment variables (`.env`)
+- Modular Python project structure
+- CLI-based execution
+
+📁 Location:  
+Week-4-Azure-AI/Customer-Feedback-Triage-System
 
 ---
 
@@ -117,5 +211,6 @@ Week-3-Azure-AI/Marketing-Slogan-Generator
 ✔️ Week 1 Completed  
 ✔️ Week 2 Completed  
 ✔️ Week 3 Completed  
+✔️ Week 4 Completed  
 ✔️ Ready for Evaluation  
 ✔️ Clean & Structured Submission  
