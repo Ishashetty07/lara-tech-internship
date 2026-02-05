@@ -187,6 +187,39 @@ Week-4-Azure-AI/Customer-Feedback-Triage-System
 
 ---
 
+### 📊 Marketing Insights Analyzer
+
+A Python-based backend system that converts raw customer feedback into structured marketing insights using **Azure OpenAI**, and compares the results against a rule-based baseline approach.
+
+**Features:**
+- Extracts:
+  - Key themes
+  - Sentiment summary
+  - Common complaints
+  - Improvement suggestions
+- Rule-based baseline using keyword and heuristic logic
+- Side-by-side comparison:
+  - Execution time
+  - Token usage (cost proxy)
+  - Number of themes
+  - Theme consistency score
+- Structured JSON output
+- Environment-variable based configuration
+- Python-only backend (no frontend)
+
+**Key Concepts Used:**
+- Azure OpenAI integration
+- Structured prompt engineering
+- Rule-based baseline system
+- Insight comparison and evaluation
+- Environment variables (`.env`)
+- Backend-only Python architecture
+
+📁 Location:  
+Week-4-Azure-AI/Marketing-Insights-Analyzer
+
+---
+
 ## 🧑‍🎓 Intern Details
 
 - **Name:** Isha Shetty  
